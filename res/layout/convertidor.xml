@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo"
+    tools:context=".Convertidor" >
+
+    <Button
+        android:id="@+id/button1"
+        android:background="@drawable/shape_botones_azul"
+        android:layout_width="600dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="MEDIDA" />
+
+    <Button
+        android:id="@+id/button3"
+        android:background="@drawable/shape_botones_azul"
+        android:layout_width="600dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:text="MASA" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/shape_botones_azul"
+        android:layout_width="600dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="TEMPERATURA" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:shadowColor="#1E90FF"
+        android:shadowRadius="3.0"
+        android:text="CROCONVER"
+        android:textColor="#00BFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</RelativeLayout>
